@@ -1,0 +1,21 @@
+{
+  "name": "bot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node .",
+    "dev_old": "nodemon --ignore 'auth_token.json'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.18",
+    "axios": "^0.26.0",
+    "chalk": "^5.0.1",
+    "cli-color": "^2.0.3",
+    "moment": "^2.29.1",
+    "telegraf": "^3.38.0"
+  }
+}
