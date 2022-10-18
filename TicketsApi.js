@@ -25,7 +25,10 @@ class TicketsApi {
 
         this.instance = axios.create({
             baseURL: 'https://online.mfa.gov.ua/api/v1/',
-            timeout: 5000
+            timeout: 5000,
+            headers: {
+                'User-Agent': 'xyz-bla-bla'
+              }
         });
 
         ac.setAPIKey(this.captchaKey);
